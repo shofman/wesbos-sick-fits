@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> renders and matches the snapshot 1`] = `
+<ItemStyles__Item>
+  <img
+    alt="A Cool item"
+    src="dog.jpg"
+  />
+  <Title>
+    <Link
+      href={
+        Object {
+          "pathname": "/item",
+          "query": Object {
+            "id": "123asdf",
+          },
+        }
+      }
+    >
+      <a>
+        A Cool item
+      </a>
+    </Link>
+  </Title>
+  <PriceTag>
+    $50
+  </PriceTag>
+  <p>
+    this item is cool
+  </p>
+  <div
+    className="buttonList"
+  >
+    <Link
+      href={
+        Object {
+          "pathname": "update",
+          "query": Object {
+            "id": "123asdf",
+          },
+        }
+      }
+    >
+      <a>
+        Edit 
+      </a>
+    </Link>
+    <AddToCart
+      id="123asdf"
+    />
+    <DeleteItem
+      id="123asdf"
+    >
+      Delete Item
+    </DeleteItem>
+  </div>
+</ItemStyles__Item>
+`;
